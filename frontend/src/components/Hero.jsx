@@ -24,19 +24,19 @@ const Hero = () => {
           {/* Attention Grabber */}
           <Badge className="mb-6 bg-green-500/20 text-green-300 border-green-500/30 px-6 py-2 text-sm font-semibold">
             <Zap className="w-4 h-4 mr-2" />
-            LIMITED TIME: 90% Commission Rate
+            BEGRENZTE ZEIT: 90% Provision + Ratenzahlung möglich
           </Badge>
           
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Create & Sell Your
-            <span className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent"> Digital Product </span>
-            in Just 7 Days
+            Erstelle & Verkaufe Dein
+            <span className="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent"> digitales Produkt </span>
+            in nur 7 Tagen
           </h1>
           
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-4xl mx-auto leading-relaxed">
-            Join the AI Product Challenge and discover how AI does 90% of the work while you earn 90% affiliate commissions
+            Nimm an der AI Produkt Challenge teil und entdecke, wie KI 90% der Arbeit macht, während du 90% Affiliate-Provision verdienst
           </p>
           
           {/* Social Proof */}
@@ -47,13 +47,13 @@ const Hero = () => {
                   <div key={i} className="w-8 h-8 bg-gradient-to-r from-blue-400 to-green-400 rounded-full border-2 border-white"></div>
                 ))}
               </div>
-              <span className="text-sm text-slate-300">10,000+ Success Stories</span>
+              <span className="text-sm text-slate-300">10.000+ Erfolgsgeschichten</span>
             </div>
             <div className="flex items-center space-x-1">
               {[1,2,3,4,5].map(i => (
                 <Star key={i} className="w-5 h-5 fill-yellow-400 text-yellow-400" />
               ))}
-              <span className="text-sm text-slate-300 ml-2">4.9/5 Rating</span>
+              <span className="text-sm text-slate-300 ml-2">4,9/5 Bewertung</span>
             </div>
           </div>
           
@@ -64,7 +64,12 @@ const Hero = () => {
                 <span className="text-3xl text-slate-400 line-through">{heroData.originalPrice}</span>
                 <span className="text-5xl font-bold text-green-400">{heroData.price}</span>
               </div>
-              <p className="text-slate-300">One-time investment • Lifetime access • 90% commissions</p>
+              <p className="text-slate-300 mb-4">Einmalige Investition • Lebenslanger Zugang • 90% Provision</p>
+              <div className="bg-yellow-500/20 border border-yellow-500/30 rounded-lg p-3 mb-4">
+                <p className="text-yellow-300 font-semibold text-sm">
+                  💳 RATENZAHLUNG VERFÜGBAR: Nach deinem ersten Verkauf kannst du sofort alles abbezahlen!
+                </p>
+              </div>
             </div>
             
             <Button 
@@ -74,7 +79,7 @@ const Hero = () => {
               {heroData.cta} →
             </Button>
             
-            <p className="text-xs text-slate-400 mt-4">✅ Instant access • ✅ 30-day guarantee • ✅ Payment plans available</p>
+            <p className="text-xs text-slate-400 mt-4">✅ Sofortiger Zugang • ✅ Ratenzahlung über PayPal/Klarna</p>
           </div>
           
           {/* Key Features */}
