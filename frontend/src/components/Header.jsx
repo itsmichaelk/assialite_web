@@ -93,6 +93,12 @@ const Header = () => {
                 Vorteile
               </button>
               <button 
+                onClick={() => scrollToSection('story')} 
+                className="text-left text-slate-700 hover:text-blue-600 transition-colors font-medium py-2"
+              >
+                Über mich
+              </button>
+              <button 
                 onClick={() => scrollToSection('testimonials')} 
                 className="text-left text-slate-700 hover:text-blue-600 transition-colors font-medium py-2"
               >
