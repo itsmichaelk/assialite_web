@@ -8,10 +8,10 @@ const FAQ = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Frequently Asked Questions
+            Häufig gestellte Fragen
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Get answers to the most common questions about the AI Product Challenge
+            Antworten auf die häufigsten Fragen zur AI Produkt Challenge
           </p>
         </div>
         
