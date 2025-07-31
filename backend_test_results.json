@@ -1,107 +1,107 @@
 {
   "summary": {
-    "passed": 1,
-    "failed": 15,
-    "success_rate": 6.25,
+    "passed": 14,
+    "failed": 2,
+    "success_rate": 87.5,
     "backend_url": "https://6a39df57-1566-401d-b211-79a87fa44055.preview.emergentagent.com",
-    "test_timestamp": "2025-07-31T09:46:08.599928"
+    "test_timestamp": "2025-07-31T09:47:24.258361"
   },
   "detailed_results": [
     {
       "test": "Health Check",
       "success": true,
       "details": "Status: healthy, DB: connected",
-      "timestamp": "2025-07-31T09:45:59.441852"
+      "timestamp": "2025-07-31T09:47:15.077173"
     },
     {
       "test": "Analytics - Page View Tracking",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:59.953347"
+      "success": true,
+      "details": "Page view tracked: landing at 2025-07-31T09:47:15.585650",
+      "timestamp": "2025-07-31T09:47:15.589507"
     },
     {
       "test": "Analytics - Click Event Tracking",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:00.463012"
+      "success": true,
+      "details": "Click tracked: cta-main in hero-section",
+      "timestamp": "2025-07-31T09:47:16.102442"
     },
     {
       "test": "Analytics - Section View Tracking",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:00.974364"
+      "success": true,
+      "details": "Section view tracked: hero for 45s",
+      "timestamp": "2025-07-31T09:47:16.614750"
     },
     {
       "test": "Analytics - Performance Metrics",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:01.483928"
+      "success": true,
+      "details": "Performance tracked: 2.5s load time on desktop",
+      "timestamp": "2025-07-31T09:47:17.124450"
     },
     {
       "test": "Leads - Lead Capture",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:01.993715"
+      "success": true,
+      "details": "Lead captured: max.mustermann@example.com from exit-intent",
+      "timestamp": "2025-07-31T09:47:17.641324"
     },
     {
       "test": "Leads - Newsletter Signup",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:02.503702"
+      "success": true,
+      "details": "Newsletter signup: anna.schmidt@example.com",
+      "timestamp": "2025-07-31T09:47:18.154042"
     },
     {
       "test": "Leads - Contact Form",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:03.015742"
+      "success": true,
+      "details": "Contact form submitted: Frage zur Ratenzahlung from thomas.weber@example.com",
+      "timestamp": "2025-07-31T09:47:18.665446"
     },
     {
       "test": "Leads - Deduplication",
-      "success": false,
-      "details": "Status: 404, 404",
-      "timestamp": "2025-07-31T09:46:03.535202"
+      "success": true,
+      "details": "Deduplication working: Updated interests to ['ratenzahlung', 'newsletter']",
+      "timestamp": "2025-07-31T09:47:19.185191"
     },
     {
       "test": "Analytics - Summary Dashboard",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:05.045665"
+      "success": true,
+      "details": "Summary: 1 views, 1 visitors, 1 clicks",
+      "timestamp": "2025-07-31T09:47:20.700669"
     },
     {
       "test": "Leads - Statistics",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:05.555333"
+      "success": true,
+      "details": "Lead stats: 4 total, 4 new, 0.0% conversion",
+      "timestamp": "2025-07-31T09:47:21.213031"
     },
     {
       "test": "Leads - Get Leads with Filters",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:06.063023"
+      "success": true,
+      "details": "Retrieved 4 leads",
+      "timestamp": "2025-07-31T09:47:21.722617"
     },
     {
       "test": "Leads - Get Contact Messages",
-      "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:06.571273"
+      "success": true,
+      "details": "Retrieved 1 contact messages",
+      "timestamp": "2025-07-31T09:47:22.232538"
     },
     {
       "test": "Analytics - Get Page Views",
       "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:07.081177"
+      "details": "Status: 500, Response: Internal Server Error",
+      "timestamp": "2025-07-31T09:47:22.740399"
     },
     {
       "test": "Analytics - Get Click Events",
       "success": false,
-      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:46:07.589483"
+      "details": "Status: 500, Response: Internal Server Error",
+      "timestamp": "2025-07-31T09:47:23.251335"
     },
     {
       "test": "Error Handling - Invalid Email",
-      "success": false,
-      "details": "Validation error correctly returned: 404",
-      "timestamp": "2025-07-31T09:46:08.099594"
+      "success": true,
+      "details": "Validation error correctly returned: 422",
+      "timestamp": "2025-07-31T09:47:23.758050"
     }
   ]
 }
