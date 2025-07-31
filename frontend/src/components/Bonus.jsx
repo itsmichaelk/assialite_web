@@ -69,19 +69,24 @@ const Bonus = () => {
           <Card className="bg-gradient-to-r from-green-500/20 to-blue-500/20 backdrop-blur-lg border-green-500/30">
             <CardContent className="p-8">
               <div className="text-center">
-                <h3 className="text-2xl font-bold text-white mb-4">Total Package Value</h3>
+                <h3 className="text-2xl font-bold text-white mb-4">Gesamtpaket-Wert</h3>
                 <div className="flex items-center justify-center space-x-4 mb-6">
                   <span className="text-3xl text-slate-400 line-through">€{1001 + totalBonusValue}</span>
-                  <span className="text-5xl font-bold text-green-400">€1,001</span>
+                  <span className="text-5xl font-bold text-green-400">€1.001</span>
                 </div>
-                <p className="text-slate-300 mb-8">
-                  You save €{totalBonusValue} when you join today!
+                <p className="text-slate-300 mb-4">
+                  Du sparst €{totalBonusValue}, wenn du heute beitrittst!
                 </p>
+                <div className="bg-yellow-500/20 border border-yellow-500/30 rounded-lg p-3 mb-6">
+                  <p className="text-yellow-300 font-semibold text-sm">
+                    💡 SMART: Ratenzahlung wählen → Ersten Verkauf machen → Sofort alles abbezahlen!
+                  </p>
+                </div>
                 <button 
                   onClick={() => window.open('https://www.digistore24.com/product/593778?aff=Moneymommys', '_blank')}
                   className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white text-xl py-6 px-12 rounded-xl font-bold shadow-2xl transform hover:scale-105 transition-all duration-300"
                 >
-                  Claim Your Bonuses Now →
+                  Jetzt Boni sichern →
                 </button>
               </div>
             </CardContent>
