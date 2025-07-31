@@ -1,8 +1,7 @@
 from fastapi import APIRouter, HTTPException, Request
 from typing import List, Optional
 from datetime import datetime, timedelta
-from motor.motor_asyncio import AsyncIOMotorClient
-import os
+from database import get_database
 from models.analytics import (
     PageView, PageViewCreate, ClickEvent, ClickEventCreate, 
     SectionView, SectionViewCreate, AnalyticsSummary,
@@ -12,9 +11,7 @@ from models.analytics import (
 router = APIRouter(prefix="/api/analytics", tags=["analytics"])
 
 # Get database connection
-mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+db = get_database()
 
 def get_client_ip(request: Request) -> str:
     """Extract client IP from request"""
