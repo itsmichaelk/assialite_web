@@ -13,14 +13,14 @@ const Bonus = () => {
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-green-500/20 text-green-300 border-green-500/30 px-4 py-2">
             <Gift className="w-4 h-4 mr-2" />
-            EXCLUSIVE BONUSES
+            EXKLUSIVE BONI
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Get These Bonuses Worth €{totalBonusValue}
-            <span className="text-green-400"> FREE</span>
+            Erhalte diese Boni im Wert von €{totalBonusValue}
+            <span className="text-green-400"> KOSTENLOS</span>
           </h2>
           <p className="text-xl text-slate-300 max-w-3xl mx-auto">
-            When you join today, you'll receive these premium bonus modules at no extra cost
+            Wenn du heute beitrittst, erhältst du diese Premium-Bonus-Module ohne Zusatzkosten
           </p>
         </div>
         
