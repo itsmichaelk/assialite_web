@@ -84,19 +84,19 @@ const Header = () => {
                 onClick={() => scrollToSection('benefits')} 
                 className="text-left text-slate-700 hover:text-blue-600 transition-colors font-medium py-2"
               >
-                Benefits
+                Vorteile
               </button>
               <button 
                 onClick={() => scrollToSection('testimonials')} 
                 className="text-left text-slate-700 hover:text-blue-600 transition-colors font-medium py-2"
               >
-                Success Stories
+                Erfolgsgeschichten
               </button>
               <button 
                 onClick={() => scrollToSection('bonus')} 
                 className="text-left text-slate-700 hover:text-blue-600 transition-colors font-medium py-2"
               >
-                Bonus
+                Boni
               </button>
               <button 
                 onClick={() => scrollToSection('faq')} 
@@ -108,7 +108,7 @@ const Header = () => {
                 onClick={handleCtaClick}
                 className="w-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white px-6 py-3 rounded-lg font-semibold shadow-lg mt-4"
               >
-                Get Started Now
+                Jetzt starten
               </Button>
             </nav>
           </div>
