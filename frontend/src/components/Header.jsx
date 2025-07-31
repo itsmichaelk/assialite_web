@@ -26,7 +26,7 @@ const Header = () => {
             <div className="bg-gradient-to-r from-blue-500 to-green-500 w-10 h-10 rounded-xl flex items-center justify-center">
               <Zap className="w-6 h-6 text-white" />
             </div>
-            <span className="text-xl font-bold text-slate-900">AI Product Challenge</span>
+            <span className="text-xl font-bold text-slate-900">AI Produkt Challenge</span>
           </div>
 
           {/* Desktop Navigation */}
