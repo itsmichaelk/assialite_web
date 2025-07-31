@@ -1,107 +1,107 @@
 {
   "summary": {
-    "passed": 14,
-    "failed": 2,
-    "success_rate": 87.5,
+    "passed": 16,
+    "failed": 0,
+    "success_rate": 100.0,
     "backend_url": "https://6a39df57-1566-401d-b211-79a87fa44055.preview.emergentagent.com",
-    "test_timestamp": "2025-07-31T09:47:24.258361"
+    "test_timestamp": "2025-07-31T09:48:29.598867"
   },
   "detailed_results": [
     {
       "test": "Health Check",
       "success": true,
       "details": "Status: healthy, DB: connected",
-      "timestamp": "2025-07-31T09:47:15.077173"
+      "timestamp": "2025-07-31T09:48:20.378619"
     },
     {
       "test": "Analytics - Page View Tracking",
       "success": true,
-      "details": "Page view tracked: landing at 2025-07-31T09:47:15.585650",
-      "timestamp": "2025-07-31T09:47:15.589507"
+      "details": "Page view tracked: landing at 2025-07-31T09:48:20.889056",
+      "timestamp": "2025-07-31T09:48:20.893432"
     },
     {
       "test": "Analytics - Click Event Tracking",
       "success": true,
       "details": "Click tracked: cta-main in hero-section",
-      "timestamp": "2025-07-31T09:47:16.102442"
+      "timestamp": "2025-07-31T09:48:21.406117"
     },
     {
       "test": "Analytics - Section View Tracking",
       "success": true,
       "details": "Section view tracked: hero for 45s",
-      "timestamp": "2025-07-31T09:47:16.614750"
+      "timestamp": "2025-07-31T09:48:21.919925"
     },
     {
       "test": "Analytics - Performance Metrics",
       "success": true,
       "details": "Performance tracked: 2.5s load time on desktop",
-      "timestamp": "2025-07-31T09:47:17.124450"
+      "timestamp": "2025-07-31T09:48:22.431388"
     },
     {
       "test": "Leads - Lead Capture",
       "success": true,
       "details": "Lead captured: max.mustermann@example.com from exit-intent",
-      "timestamp": "2025-07-31T09:47:17.641324"
+      "timestamp": "2025-07-31T09:48:22.951327"
     },
     {
       "test": "Leads - Newsletter Signup",
       "success": true,
       "details": "Newsletter signup: anna.schmidt@example.com",
-      "timestamp": "2025-07-31T09:47:18.154042"
+      "timestamp": "2025-07-31T09:48:23.467676"
     },
     {
       "test": "Leads - Contact Form",
       "success": true,
       "details": "Contact form submitted: Frage zur Ratenzahlung from thomas.weber@example.com",
-      "timestamp": "2025-07-31T09:47:18.665446"
+      "timestamp": "2025-07-31T09:48:23.982932"
     },
     {
       "test": "Leads - Deduplication",
       "success": true,
       "details": "Deduplication working: Updated interests to ['ratenzahlung', 'newsletter']",
-      "timestamp": "2025-07-31T09:47:19.185191"
+      "timestamp": "2025-07-31T09:48:24.507152"
     },
     {
       "test": "Analytics - Summary Dashboard",
       "success": true,
-      "details": "Summary: 1 views, 1 visitors, 1 clicks",
-      "timestamp": "2025-07-31T09:47:20.700669"
+      "details": "Summary: 2 views, 1 visitors, 2 clicks",
+      "timestamp": "2025-07-31T09:48:26.027833"
     },
     {
       "test": "Leads - Statistics",
       "success": true,
       "details": "Lead stats: 4 total, 4 new, 0.0% conversion",
-      "timestamp": "2025-07-31T09:47:21.213031"
+      "timestamp": "2025-07-31T09:48:26.542150"
     },
     {
       "test": "Leads - Get Leads with Filters",
       "success": true,
       "details": "Retrieved 4 leads",
-      "timestamp": "2025-07-31T09:47:21.722617"
+      "timestamp": "2025-07-31T09:48:27.054372"
     },
     {
       "test": "Leads - Get Contact Messages",
       "success": true,
-      "details": "Retrieved 1 contact messages",
-      "timestamp": "2025-07-31T09:47:22.232538"
+      "details": "Retrieved 2 contact messages",
+      "timestamp": "2025-07-31T09:48:27.565360"
     },
     {
       "test": "Analytics - Get Page Views",
-      "success": false,
-      "details": "Status: 500, Response: Internal Server Error",
-      "timestamp": "2025-07-31T09:47:22.740399"
+      "success": true,
+      "details": "Retrieved 2 page views",
+      "timestamp": "2025-07-31T09:48:28.076298"
     },
     {
       "test": "Analytics - Get Click Events",
-      "success": false,
-      "details": "Status: 500, Response: Internal Server Error",
-      "timestamp": "2025-07-31T09:47:23.251335"
+      "success": true,
+      "details": "Retrieved 2 click events",
+      "timestamp": "2025-07-31T09:48:28.587846"
     },
     {
       "test": "Error Handling - Invalid Email",
       "success": true,
       "details": "Validation error correctly returned: 422",
-      "timestamp": "2025-07-31T09:47:23.758050"
+      "timestamp": "2025-07-31T09:48:29.098484"
     }
   ]
 }
