@@ -25,6 +25,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Schnelllinks</h4>
             <ul className="space-y-2">
               <li><button onClick={() => document.getElementById('benefits')?.scrollIntoView({behavior: 'smooth'})} className="text-slate-400 hover:text-white transition-colors">Vorteile</button></li>
+              <li><button onClick={() => document.getElementById('story')?.scrollIntoView({behavior: 'smooth'})} className="text-slate-400 hover:text-white transition-colors">Über mich</button></li>
               <li><button onClick={() => document.getElementById('testimonials')?.scrollIntoView({behavior: 'smooth'})} className="text-slate-400 hover:text-white transition-colors">Erfolgsgeschichten</button></li>
               <li><button onClick={() => document.getElementById('bonus')?.scrollIntoView({behavior: 'smooth'})} className="text-slate-400 hover:text-white transition-colors">Boni</button></li>
               <li><button onClick={() => document.getElementById('faq')?.scrollIntoView({behavior: 'smooth'})} className="text-slate-400 hover:text-white transition-colors">FAQ</button></li>
