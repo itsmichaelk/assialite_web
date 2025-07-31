@@ -8,7 +8,7 @@ from models.analytics import (
     PerformanceMetric, PerformanceMetricCreate
 )
 
-router = APIRouter(prefix="/api/analytics", tags=["analytics"])
+router = APIRouter(prefix="/analytics", tags=["analytics"])
 
 # Get database connection
 db = get_database()
