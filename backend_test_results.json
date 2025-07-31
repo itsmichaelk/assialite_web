@@ -1,107 +1,107 @@
 {
   "summary": {
-    "passed": 0,
-    "failed": 16,
-    "success_rate": 0.0,
+    "passed": 1,
+    "failed": 15,
+    "success_rate": 6.25,
     "backend_url": "https://6a39df57-1566-401d-b211-79a87fa44055.preview.emergentagent.com",
-    "test_timestamp": "2025-07-31T09:45:22.307309"
+    "test_timestamp": "2025-07-31T09:46:08.599928"
   },
   "detailed_results": [
     {
       "test": "Health Check",
-      "success": false,
-      "details": "Status code: 504",
-      "timestamp": "2025-07-31T09:44:15.626778"
+      "success": true,
+      "details": "Status: healthy, DB: connected",
+      "timestamp": "2025-07-31T09:45:59.441852"
     },
     {
       "test": "Analytics - Page View Tracking",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:12.548758"
+      "timestamp": "2025-07-31T09:45:59.953347"
     },
     {
       "test": "Analytics - Click Event Tracking",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:13.061679"
+      "timestamp": "2025-07-31T09:46:00.463012"
     },
     {
       "test": "Analytics - Section View Tracking",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:13.571911"
+      "timestamp": "2025-07-31T09:46:00.974364"
     },
     {
       "test": "Analytics - Performance Metrics",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:14.079050"
+      "timestamp": "2025-07-31T09:46:01.483928"
     },
     {
       "test": "Leads - Lead Capture",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:14.586576"
+      "timestamp": "2025-07-31T09:46:01.993715"
     },
     {
       "test": "Leads - Newsletter Signup",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:15.094370"
+      "timestamp": "2025-07-31T09:46:02.503702"
     },
     {
       "test": "Leads - Contact Form",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:15.601713"
+      "timestamp": "2025-07-31T09:46:03.015742"
     },
     {
       "test": "Leads - Deduplication",
       "success": false,
       "details": "Status: 404, 404",
-      "timestamp": "2025-07-31T09:45:16.116333"
+      "timestamp": "2025-07-31T09:46:03.535202"
     },
     {
       "test": "Analytics - Summary Dashboard",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:17.626297"
+      "timestamp": "2025-07-31T09:46:05.045665"
     },
     {
       "test": "Leads - Statistics",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:18.133423"
+      "timestamp": "2025-07-31T09:46:05.555333"
     },
     {
       "test": "Leads - Get Leads with Filters",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:18.640784"
+      "timestamp": "2025-07-31T09:46:06.063023"
     },
     {
       "test": "Leads - Get Contact Messages",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:19.150910"
+      "timestamp": "2025-07-31T09:46:06.571273"
     },
     {
       "test": "Analytics - Get Page Views",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:20.791205"
+      "timestamp": "2025-07-31T09:46:07.081177"
     },
     {
       "test": "Analytics - Get Click Events",
       "success": false,
       "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
-      "timestamp": "2025-07-31T09:45:21.299524"
+      "timestamp": "2025-07-31T09:46:07.589483"
     },
     {
       "test": "Error Handling - Invalid Email",
       "success": false,
       "details": "Validation error correctly returned: 404",
-      "timestamp": "2025-07-31T09:45:21.806986"
+      "timestamp": "2025-07-31T09:46:08.099594"
     }
   ]
 }
