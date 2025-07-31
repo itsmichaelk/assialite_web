@@ -8,10 +8,10 @@ const Benefits = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Why Choose the AI Product Challenge?
+            Warum die AI Produkt Challenge wählen?
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Discover the unique advantages that make this the most profitable opportunity in digital marketing
+            Entdecke die einzigartigen Vorteile, die dies zur profitabelsten Gelegenheit im digitalen Marketing machen
           </p>
         </div>
         
