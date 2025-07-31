@@ -10,13 +10,13 @@ const Testimonials = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <Badge className="mb-4 bg-green-100 text-green-800 px-4 py-2">
-            SUCCESS STORIES
+            ERFOLGSGESCHICHTEN
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-6">
-            Real People, Real Results
+            Echte Menschen, Echte Ergebnisse
           </h2>
           <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            See how our students transformed their lives with the AI Product Challenge
+            Sieh, wie unsere Teilnehmer ihr Leben mit der AI Produkt Challenge verwandelt haben
           </p>
         </div>
         
