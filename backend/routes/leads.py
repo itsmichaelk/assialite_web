@@ -7,7 +7,7 @@ from models.leads import (
     ContactMessageCreate, LeadStats
 )
 
-router = APIRouter(prefix="/api/leads", tags=["leads"])
+router = APIRouter(prefix="/leads", tags=["leads"])
 
 # Get database connection
 db = get_database()
