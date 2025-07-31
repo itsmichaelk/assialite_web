@@ -64,13 +64,18 @@ const Testimonials = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-16">
           <p className="text-2xl font-bold text-slate-900 mb-4">
-            Ready to Join These Success Stories?
+            Bereit, Teil dieser Erfolgsgeschichten zu werden?
           </p>
+          <div className="bg-yellow-100 border border-yellow-300 rounded-xl p-4 mb-6 max-w-2xl mx-auto">
+            <p className="text-yellow-800 font-semibold">
+              💳 Tipp: Wähle Ratenzahlung und bezahle mit deinem ersten Verkauf alles sofort ab!
+            </p>
+          </div>
           <button 
             onClick={() => window.open('https://www.digistore24.com/product/593778?aff=Moneymommys', '_blank')}
             className="bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white text-xl py-4 px-8 rounded-xl font-bold shadow-xl transform hover:scale-105 transition-all duration-300"
           >
-            Start Your Success Story Today →
+            Starte deine Erfolgsgeschichte heute →
           </button>
         </div>
       </div>
