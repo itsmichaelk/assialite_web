@@ -144,7 +144,7 @@ async def get_click_events(days: Optional[int] = 7, limit: Optional[int] = 100):
         start_date = datetime.utcnow() - timedelta(days=days)
         clicks = await db.click_events.find({
             "timestamp": {"$gte": start_date}
-        }).sort("timestamp", -1).limit(limit).to_list(limit)
+        }, {"_id": 0}).sort("timestamp", -1).limit(limit).to_list(limit)
         
         return {"clicks": clicks, "count": len(clicks)}
     except Exception as e:
