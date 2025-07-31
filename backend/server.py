@@ -1,10 +1,8 @@
 from fastapi import FastAPI, APIRouter
 from dotenv import load_dotenv
 from starlette.middleware.cors import CORSMiddleware
-from motor.motor_asyncio import AsyncIOMotorClient
-import os
+from database import get_database, client
 import logging
-from pathlib import Path
 from pydantic import BaseModel, Field
 from typing import List
 import uuid
@@ -13,13 +11,8 @@ from datetime import datetime
 # Import route modules
 from routes import analytics, leads
 
-ROOT_DIR = Path(__file__).parent
-load_dotenv(ROOT_DIR / '.env')
-
-# MongoDB connection
-mongo_url = os.environ['MONGO_URL']
-client = AsyncIOMotorClient(mongo_url)
-db = client[os.environ['DB_NAME']]
+# Get database connection
+db = get_database()
 
 # Create the main app without a prefix
 app = FastAPI(

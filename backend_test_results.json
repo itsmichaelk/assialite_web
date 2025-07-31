@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "passed": 0,
+    "failed": 16,
+    "success_rate": 0.0,
+    "backend_url": "https://6a39df57-1566-401d-b211-79a87fa44055.preview.emergentagent.com",
+    "test_timestamp": "2025-07-31T09:45:22.307309"
+  },
+  "detailed_results": [
+    {
+      "test": "Health Check",
+      "success": false,
+      "details": "Status code: 504",
+      "timestamp": "2025-07-31T09:44:15.626778"
+    },
+    {
+      "test": "Analytics - Page View Tracking",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:12.548758"
+    },
+    {
+      "test": "Analytics - Click Event Tracking",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:13.061679"
+    },
+    {
+      "test": "Analytics - Section View Tracking",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:13.571911"
+    },
+    {
+      "test": "Analytics - Performance Metrics",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:14.079050"
+    },
+    {
+      "test": "Leads - Lead Capture",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:14.586576"
+    },
+    {
+      "test": "Leads - Newsletter Signup",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:15.094370"
+    },
+    {
+      "test": "Leads - Contact Form",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:15.601713"
+    },
+    {
+      "test": "Leads - Deduplication",
+      "success": false,
+      "details": "Status: 404, 404",
+      "timestamp": "2025-07-31T09:45:16.116333"
+    },
+    {
+      "test": "Analytics - Summary Dashboard",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:17.626297"
+    },
+    {
+      "test": "Leads - Statistics",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:18.133423"
+    },
+    {
+      "test": "Leads - Get Leads with Filters",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:18.640784"
+    },
+    {
+      "test": "Leads - Get Contact Messages",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:19.150910"
+    },
+    {
+      "test": "Analytics - Get Page Views",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:20.791205"
+    },
+    {
+      "test": "Analytics - Get Click Events",
+      "success": false,
+      "details": "Status: 404, Response: {\"detail\":\"Not Found\"}",
+      "timestamp": "2025-07-31T09:45:21.299524"
+    },
+    {
+      "test": "Error Handling - Invalid Email",
+      "success": false,
+      "details": "Validation error correctly returned: 404",
+      "timestamp": "2025-07-31T09:45:21.806986"
+    }
+  ]
+}
